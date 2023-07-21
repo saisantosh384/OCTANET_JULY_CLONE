@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(https://cdn.pixabay.com/photo/2020/05/06/06/18/blue-5136251_1280.jpg);
+    background-size: cover;
+    background: position 1px;;
+  }
+  
+  header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 10px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo{
+    position: relative;
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+  
+  header .navigation a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 3px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+  }
+  
+  header .navigation a:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  header .navigation a:hover{
+    background: #5d9fe1;
+  }
+
+
+  *{
+    margin: 0;
+    padding: 4px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+
+
+.fst-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 22px;
+
+}
+
+.f-img{
+    padding:0%;
+    max-width: 10;
+}
+
+.media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .media-icons a{
+    position: relative;
+    color: #111;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: transform;
+  }
+  
+  .media-icons a:not(:last-child){
+    margin-right: 60px;
+  }
+  
+  .media-icons a:hover{
+    transform: scale(1.5);
+  }
